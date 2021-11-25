@@ -57,10 +57,10 @@ class _PinPageState extends State<PinPage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
                           Text(
-                            "Enter your pin",
+                            "Enter 4-digit pin",
                             style: TextStyle(
                               fontSize: 14,
-                              fontWeight: FontWeight.bold,
+                              fontWeight: FontWeight.w400,
                               color: Colors.grey,
                             ),
                           ),

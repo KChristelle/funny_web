@@ -73,8 +73,8 @@ class PinPad extends StatelessWidget {
     return Container(
       height: buttonSize,
       width: buttonSize,
-      child: RaisedButton(
-        color: Colors.grey[400],
+      child: FlatButton(
+        color: Colors.grey[300],
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(buttonSize / 2),
         ),
@@ -86,7 +86,7 @@ class PinPad extends StatelessWidget {
             num.toString(),
             style: TextStyle(
               fontSize: 25,
-              fontWeight: FontWeight.bold,
+              fontWeight: FontWeight.w400,
               color: Colors.black,
             ),
           ),
